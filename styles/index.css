@@ -1,0 +1,102 @@
+body {
+  background-color: #1e1e1e;
+  margin: 0;
+}
+
+p {
+	margin: 0;
+	color: rgb(213, 213, 213);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+	display: flex;
+	flex-direction: row; 
+	background-color: #333;
+	align-items: center;
+	justify-content: space-between;
+	height: 60px;
+	position: relative;
+}
+
+.header-right {
+	position: absolute;
+  right: 10px;
+  display: flex;
+
+}
+
+.header-left {
+  position: absolute;
+  left: 20px;
+  font-size: 16px;
+  font-family: 'PT Sans';
+}
+
+.header-right-text {
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+nav {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  float: left;
+  margin-left: 10vw;
+  max-width: 15cap;
+  min-width: 10cap;
+  padding-top: 100px;
+  position: fixed;
+}
+
+.navbar-list-element {
+  list-style-type: none;
+  list-style-position: inside;
+  padding-bottom: 8px;
+}
+
+#body-main {
+  display: flex;
+  padding-left: 30vw;
+  min-width: 10vw;
+  flex-direction: column;
+  padding-right: 15vw;
+  max-width: 800px
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(213, 213, 213);
+}
+
+.main-link {
+  color: rgb(164, 62, 236);
+}
+
+.main-text {
+  font-size: 16px;
+  margin-bottom: 7px;
+}
+
+.navbar-page-link:visited, .navbar-page-link:active{
+  text-decoration: none;
+  color: rgb(164, 62, 236);
+}
+
+.navbar-page-link {
+  text-decoration: none;
+  color: rgb(213, 213, 213);
+}
+.header-right-link {
+  text-decoration: none;
+  color: rgb(213, 213, 213);
+}
+
+.header-right-link:hover, .navbar-page-link:hover{
+  text-decoration: underline;
+}
+
+.main-text code {
+  font-family: monospace;
+}
