@@ -100,3 +100,9 @@ h1, h2, h3, h4, h5 {
 .main-text code {
   font-family: monospace;
 }
+
+@media only screen and (max-width: 800px) {
+  nav {
+    display: none;
+  }
+}

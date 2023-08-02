@@ -1,11 +1,11 @@
 body {
-  /*background-image: url('/assets/background.webp');
-  background-repeat: none;*/
+  /* background-image: url('/assets/background.webp');
+  background-repeat: none; */
   background-color: #212121;
   margin: 0;
 }
 
-.header {
+header {
   height: 65px;
   padding-left: 30px;
   display: flex;
@@ -14,6 +14,10 @@ body {
   align-items: center;
   backdrop-filter: blur(1px);
   background-color: #333;
+}
+
+#header-title {
+  font-family: 'PT Sans';
 }
 
 .header-left{
@@ -51,8 +55,9 @@ body {
 .desc {
   padding-top: 30px;
   backdrop-filter: blur(1px);
-  margin-bottom: 200px;
+  margin-bottom: 6rem;
 }
+
 .desc-text {
   font-family: 'PT Sans', sans-serif;
   margin-left: 30px;
@@ -78,6 +83,9 @@ body {
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
+  transition: padding 0.3s, background 0.3s;
+  -moz-transition: 0.3s;
+  -webkit-transition: 0.3s;
 }
 
 #youtube-button {
@@ -93,6 +101,9 @@ body {
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
+  transition: padding 0.3s, background 0.3s;
+  -moz-transition: 0.3s;
+  -webkit-transition: 0.3s;
 }
 
 
@@ -100,6 +111,7 @@ body {
   width: 25px;
   border-radius: 25px;
   margin-right: 10px;
+  
 }
 
 #youtube-icon {
@@ -110,3 +122,27 @@ body {
 #footer {
   position: absolute;
 }
+
+#youtube-button:hover {
+  background: -moz-linear-gradient(to right, red, 50%, black);
+  background: -webkit-linear-gradient(to right, red, 50%, black);
+  background:  linear-gradient(to right, red, 50%, black);
+  padding: 20px 40px 20px 40px;
+}
+
+#github-button:hover {
+  background: -moz-linear-gradient(to right, #6cc644, 50%, black);
+  background: -webkit-linear-gradient(to right, #6cc644, 50%, black);
+  background: linear-gradient(to right, #6cc644, 50%, black);
+  padding: 20px 40px 20px 40px;
+
+}
+
+#spotify-button:hover {
+  background: -moz-linear-gradient(to left, #1DB954,#191414);
+  background: -webkit-linear-gradient(to left, #1DB954,#191414);
+  background: linear-gradient(to right, #1DB954,#191414);
+  padding: 20px 40px 20px 40px;
+
+}
+
