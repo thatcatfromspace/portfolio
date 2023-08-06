@@ -3,15 +3,6 @@ p {
   margin: 0;
 }
 
-a {
-  text-decoration: underline;
-  color: rgb(213, 213, 213);
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-a:visited {
+.desc a {
   color: rgb(213, 213, 213);
 }
