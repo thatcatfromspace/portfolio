@@ -4,5 +4,14 @@ p {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
+  color: rgb(213, 213, 213);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: rgb(213, 213, 213);
 }
